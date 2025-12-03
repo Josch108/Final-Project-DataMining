@@ -1,0 +1,10 @@
+itemset,k,support,count,support_count_threshold
+Milk,1,0.5,6,6
+Bread,1,0.5,6,6
+Butter,1,0.417,5,5
+Chips,1,0.333,4,4
+Eggs,1,0.25,3,3
+"Bread, Milk",2,0.25,3,3
+"Eggs, Milk",2,0.25,3,3
+"Bread, Butter",2,0.25,3,3
+"Butter, Milk",2,0.25,3,3

@@ -1,0 +1,13 @@
+transaction_id,items
+1,"[""Bread"", ""Eggs"", ""Milk""]"
+2,"[""Beer"", ""Chips""]"
+3,"[""Eggs"", ""Milk""]"
+4,"[""Bread"", ""Butter"", ""Jam""]"
+5,"[""Bread"", ""Chips"", ""Milk""]"
+6,"[""Bread"", ""Butter""]"
+7,"[""Butter"", ""Eggs"", ""Milk""]"
+8,"[""Beer"", ""Chips"", ""Salsa""]"
+9,"[""Bread"", ""Butter"", ""Milk""]"
+10,"[""Butter"", ""Milk""]"
+11,"[""Bread"", ""Jam""]"
+12,"[""Chips"", ""Salsa""]"

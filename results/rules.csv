@@ -1,0 +1,9 @@
+antecedent,consequent,support,confidence,lift
+Eggs,Milk,0.25,1.0,2.0
+Milk,Eggs,0.25,0.5,2.0
+Butter,Bread,0.25,0.6,1.2
+Butter,Milk,0.25,0.6,1.2
+Bread,Butter,0.25,0.5,1.2
+Milk,Butter,0.25,0.5,1.2
+Milk,Bread,0.25,0.5,1.0
+Bread,Milk,0.25,0.5,1.0
