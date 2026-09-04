@@ -129,18 +129,3 @@ flowchart LR
     G --> H[Results folder / dashboards]
 ```
 
-## Short Report (2–4 pages condensed)
-- **Problem:** discover item affinities in small daily market-basket data to inform promotions and co-location.
-- **Dataset:** 12 synthetic grocery transactions (1–3 items each) stored in CSV, then cleaned into JSON item arrays.
-- **Pipeline:** Airflow DAG with extract/clean → Apriori mining → reporting; runnable via Python scripts for quick demos.
-- **Algorithm:** Manual Apriori with candidate generation/pruning, support filtering, and rule creation using confidence + lift.
-- **Results:** 9 frequent itemsets and 8 association rules produced at the default thresholds. Strongest rule: `Eggs -> Milk` (lift 2.0).
-- **Challenges & improvements:**
-  - No external libraries allowed, so CSV/JSON handling and reporting are implemented with the Python standard library.
-  - Future work: parameterize thresholds via Airflow variables, add trend comparison across daily batches, and visualize support over time.
-
-## Deliverables Checklist
-- [x] Airflow DAG (`dags/apriori_pipeline_dag.py`)
-- [x] Python scripts (loading/cleaning, Apriori, reporting)
-- [x] Sample data and generated outputs
-- [x] README with architecture diagram and short report
